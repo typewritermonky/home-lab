@@ -4,8 +4,8 @@
 1. Download and extract the VirtualBox file from kali.org/get-kali
 2. Open VirtualBox -> New -> Virtual machine name and operating system
    - Name: Kali Linux
-   - b. Type: Linux
-   - c. Version: Debian (64-bit) 
+   - Type: Linux
+   - Version: Debian (64-bit) 
 3. Click Specify virtual hardware -> set number of CPUs to 2
 4. Click Specify virtual hard disk -> Use an Existing Virtual Hard Disk File -> Select a Virtual Hard Disk File...
    - Find your Kali Linux .vdi file -> Choose 
