@@ -1,6 +1,6 @@
 ## Kali Linux Setup ##
 
-# Steps
+# Steps - Installation
 1. Download and extract the VirtualBox file from kali.org/get-kali
 2. Open VirtualBox -> New -> Virtual machine name and operating system
    - Name: Kali Linux
@@ -10,6 +10,9 @@
 4. Click Specify virtual hard disk -> Use an Existing Virtual Hard Disk File -> Select a Virtual Hard Disk File...
    - Find your Kali Linux .vdi file -> Choose 
 6. Finish
+
+# Steps - Networking
+1. Open VirtualBox -> Kali Linux -> Settings -> Network -> Change NAT to Host-only Adapter-> OK
 
 # Notes/Issues
 - RAM was already set to 2048 MB. If it isn't, set it to that. Otherwise, keep all other default settings in that section as-is.
