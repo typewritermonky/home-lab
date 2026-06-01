@@ -20,6 +20,7 @@
    - Username: msfadmin
    - Password: msfadmin
 3. Run ifconfig, returns the IP address of Metasploitable
+   - This should return an output similar to the one shown in screenshots.md (Figure 1)
 
 ## Notes
 - Keep Metasploitable's resources minimal: it barely needs anything to keep it's ports open and services vulnerable.
