@@ -14,6 +14,12 @@
 ## Steps - Networking
 1. Open VirtualBox -> Kali Linux -> Settings -> Network -> Change NAT to Host-only Adapter-> OK
 
+## Steps - Initial Boot
+1. Open VirtualBox -> Double-Click Metasploitable 2 to power it on
+2. Open the VM and login
+   - Username: msfadmin
+   - Password: msfadmin
+3. Run ifconfig, returns the IP address of Metasploitable
 
 ## Notes
 - Keep Metasploitable's resources minimal: it barely needs anything to keep it's ports open and services vulnerable.
