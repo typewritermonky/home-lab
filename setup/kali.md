@@ -1,6 +1,6 @@
-## Kali Linux Setup ##
+# Kali Linux Setup #
 
-# Steps - Installation
+## Steps - Installation
 1. Download and extract the VirtualBox file from kali.org/get-kali
 2. Open VirtualBox -> New -> Virtual machine name and operating system
    - Name: Kali Linux
@@ -11,9 +11,10 @@
    - Find your Kali Linux .vdi file -> Choose 
 6. Finish
 
-# Steps - Networking
+## Steps - Networking
 1. Open VirtualBox -> Kali Linux -> Settings -> Network -> Change NAT to Host-only Adapter-> OK
 
-# Notes/Issues
+## Notes/Issues
 - RAM was already set to 2048 MB. If it isn't, set it to that. Otherwise, keep all other default settings in that section as-is.
-- You can get by with only 1 CPU, but performance might take a hit. 
+- You can get by with only 1 CPU, but performance might take a hit.
+- Once you get the IP from your Metasploitable VM, run ping [Metasploitable_IP] to verify that you can communicate with it from Kali. 
