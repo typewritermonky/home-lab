@@ -13,7 +13,7 @@
 
 ## Steps - Networking
 1. Open VirtualBox -> Kali Linux -> Settings -> Network -> Change NAT to Host-only Adapter-> OK
-   - ** Don't set this VM to NAT: you only want it to communicate to the Kali Linux VM only **
+   - * Don't set this VM to NAT: you only want it to communicate to the Kali Linux VM only *
 
 ## Steps - Initial Boot
 1. Open VirtualBox -> Double-Click Metasploitable 2 to power it on
